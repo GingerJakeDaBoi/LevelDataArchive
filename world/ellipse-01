@@ -1,0 +1,19 @@
+{
+	type=shape
+	shape=ellipse
+	position = [
+		0, //x
+		0, //y
+		0 //z
+	]
+	dimensions = [
+		0, //x diameter
+		0, //y diameter
+		0 //z diameter
+	]
+	rotation = [
+		0, //roll
+		0, //pitch
+		0 //yaw
+	]
+}

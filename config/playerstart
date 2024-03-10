@@ -1,0 +1,9 @@
+{
+	health = 10
+	weapon = fists
+	position = [
+		0,
+		0,
+		0,
+	]
+}

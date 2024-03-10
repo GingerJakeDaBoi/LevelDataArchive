@@ -3,6 +3,7 @@ Custom level data in a compressed, single-file archive, utilizing JSON and Coppe
 
 ## File Structure
 To add an object to a level, a file with the name of that object will need to be made.
+Level files are compressed as a zip with the "LDA" file extension.
 
  - world // This folder is for objects that are stationary and have no logic to them, unless it is manipulated by a script
 	 - model-01 //These files store an object type, object location, dimensions, and additional parameters based on type.
@@ -10,7 +11,7 @@ To add an object to a level, a file with the name of that object will need to be
 	 - model-03
 	 - rectangle-01 //This will have a object type of "SHAPE" and will need to be supplied a shape type
 	 - tri-01
-	 - sphere-01
+	 - ellipse-01
 	 - comment.txt // Text files are ignored
  - actor
 	 - actorname-01 //These files store an actor type, location, and additional parameters based on type
